@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <team></team>
+    <sports/>
   </div>
 </template>
 
 <script>
-import team from "components/team.vue"
-
+import sports from '@/components/sports.vue'
 export default {
   name: 'App',
   components: {
-    team
+    sports
   }
 }
 </script>
